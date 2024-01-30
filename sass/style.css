@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background: #F8EEFF;
+  color: #301534;
+  min-height: 100vh;
+}
+
+.background {
+  background: url("../assets/background-pattern-desktop.svg");
+  background-size: cover;
+  background-color: #301534;
+  width: 100%;
+  height: 320px;
+}
+
+.container {
+  padding: 40px;
+  background: #fff;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 16px;
+  box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.1);
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.container .title {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+.container .faq-title {
+  color: #301534;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .star-icon {
+  width: 40px;
+}
+
+.question {
+  max-width: 520px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.question .question-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question .question-title span {
+  color: #301534;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.question .question-title span:hover {
+  color: #AD28EB;
+}
+.question .expand-icon {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.question .answer {
+  display: none;
+  max-width: 520px;
+  width: 100%;
+  height: auto;
+  max-height: 96px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.answer.expand {
+  display: flex;
+}
+
+.separator {
+  height: 1px;
+  align-self: stretch;
+  background: #F8EEFF;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    top: 30%;
+    width: 90%;
+  }
+}/*# sourceMappingURL=style.css.map */
