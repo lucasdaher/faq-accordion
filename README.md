@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/lucasdaher/faq-accordion](https://github.com/lucasdaher/faq-accordion)
+- Live Site URL: [https://lucasdaher-faq-accordion.netlify.app](https://lucasdaher-faq-accordion.netlify.app)
 
 ## My process
 I started the project with HTML. Upon completion, I did the full styling using SASS. After finishing all the visuals, I went to JS. I created the expansion functionalities of each question and answer, so that when clicked, all the others retract, while the clicked one is expanded and shows the content (the answer to the question).
